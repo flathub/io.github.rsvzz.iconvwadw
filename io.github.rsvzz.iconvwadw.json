@@ -20,8 +20,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/iconvwadw/archive/refs/tags/0.1.18.tar.gz",
-          "sha256":"0636bee84672e4e95671d7342865cc29173c6212327b5f227fe170c23f3ba40f"
+          "url": "https://github.com/rsvzz/iconvwadw/archive/refs/tags/0.1.19.tar.gz",
+          "sha256":"7b395f5c371121af744e30fae40cdf7a9cccafbc54511d35290b38c345413926"
         }
       ]
     }
