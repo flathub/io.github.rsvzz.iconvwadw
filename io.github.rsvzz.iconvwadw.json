@@ -10,9 +10,9 @@
     "--socket=fallback-x11",
     "--socket=wayland"
   ],
-  "cleanup":[
+  "cleanup": [
     "/include"
-    ],
+  ],
   "modules": [
     {
       "name": "iconvwadw",
@@ -20,8 +20,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/iconvwadw/archive/refs/tags/0.1.19.tar.gz",
-          "sha256":"7b395f5c371121af744e30fae40cdf7a9cccafbc54511d35290b38c345413926"
+          "url": "https://github.com/rsvzz/iconvwadw/archive/refs/tags/0.1.21.tar.gz",
+          "sha256": "b30dab4a6297a8ecb53d3a84d33d59a5dee30452c07f34ab7d6ed257ff8ecb56"
         }
       ]
     }
