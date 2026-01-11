@@ -1,9 +1,18 @@
 {
   "id": "io.github.rsvzz.iconvwadw",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "iconvwadw",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
+  "build-options": {
+    "append-path": "/usr/lib/sdk/rust-stable/bin",
+    "env": {
+      "HOME_CARGO": "/run/build/csven/cargo"
+    }
+  },
   "finish-args": [
     "--share=ipc",
     "--device=dri",
@@ -20,8 +29,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/iconvwadw/archive/refs/tags/0.1.21.tar.gz",
-          "sha256": "b30dab4a6297a8ecb53d3a84d33d59a5dee30452c07f34ab7d6ed257ff8ecb56"
+          "url": "https://github.com/rsvzz/iconvwadw-rs/releases/download/0.1.24/iconvmadw-rs_all.tar.xz",
+          "sha256": "e143ea8d6b07730c08c1a4a4806ce8fc25cae5aee43a3ff7b58ef50606789df0"
         }
       ]
     }
