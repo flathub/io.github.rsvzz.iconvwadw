@@ -29,8 +29,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/iconvwadw-rs/releases/download/0.1.24/iconvmadw-rs_all.tar.xz",
-          "sha256": "2d0363bf7f82cf1e78151d2a8c7ed821cf468c3637b906053b574451e53a0607"
+          "url": "https://github.com/rsvzz/iconvwadw-rs/releases/download/0.1.25/iconvmadw-rs_all.tar.xz",
+          "sha256": "f675c554fee9ae9a0d590d214e83099c3b300bd295a9589dbfbd6d90e19aecdb"
         }
       ]
     }
