@@ -1,7 +1,7 @@
 {
   "id": "io.github.rsvzz.iconvwadw",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "iconvwadw",
   "sdk-extensions": [
@@ -19,9 +19,6 @@
     "--socket=fallback-x11",
     "--socket=wayland"
   ],
-  "cleanup": [
-    "/include"
-  ],
   "modules": [
     {
       "name": "iconvwadw",
@@ -29,8 +26,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/rsvzz/iconvwadw-rs/releases/download/0.1.33/iconvwadw-rs_all.tar.xz",
-          "sha256": "f707989b9a9db2b00231ad74a418a3359f8753a8f53f9c7f7ff203c15e4130c3"
+          "url": "https://github.com/rsvzz/iconvwadw-rs/releases/download/0.1.38/iconvwadw-rs_all.tar.xz",
+          "sha256": "f17a9b15cfaccb0e411f08a24fd48d0b838366ee81338c0524a0315e37670af0"
         }
       ]
     }
